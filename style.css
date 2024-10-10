@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+        url('assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 600px;
+    width: 100%;
+}
+
+/* Navbar styling */
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 45px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+.second {
+    background-color: aqua;
+    color: black;
+    height: 500px;
+}
+
+image {
+    height: 150px;
+    width: 10%;
+}
+
+#logoname {
+    color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+    z-index: 1;
+}
+
+
+.hero-text h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    font-size: 40px;
+}
+
+
+.para-hero {
+    position: relative;
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+    margin-top: 190px;
+}
+
+.para-hero p {
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+}
+
+#appoinment {
+    background-color: #CCA34C;
+    border: none;
+    position: relative;
+    height: 40px;
+    width: 20%;
+    margin: auto;
+    color: white;
+    margin-top: 45px;
+    margin-left: 500px;
+    font-size: 14px;
+}
+
+
+
+
+/* introducing section css */
+
+.introducing {
+    position: relative;
+    height: 560px;
+    width: 100%;
+
+    display: flex;
+}
+
+#intro {
+    font-family: var(--robo);
+    color: var(--orange);
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.text-section {
+    width: 60%;
+    height: 560px;
+    position: relative;
+
+}
+
+#since {
+    font-size: 34px;
+    color: rgb(57, 54, 54);
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 150px;
+}
+
+.bar {
+    position: relative;
+    width: 80%;
+}
+
+.introPara {
+    position: relative;
+    width: 68%;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--pop);
+    font-weight: 55px;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 15px;
+}
+
+
+#more {
+    background-color: var(--orange);
+    border: none;
+    position: relative;
+    height: 40px;
+    width: 20%;
+    margin: auto;
+    color: white;
+    margin-top: 45px;
+    margin-left: 310px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.intro-img {
+    margin-top: 35px;
+    margin-left: 350px;
+}
+
+
+.one,
+.two {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.three {
+    width: 270px;
+    height: 160px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.image-frame {
+    position: relative;
+    width: 40%;
+    height: 560px;
+    ;
+
+    overflow: hidden;
+
+    margin-left: 30px;
+}
+
+.image {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.two {
+    top: 100px;
+    left: -20px;
+    z-index: 2;
+    margin-right: 60px;
+}
+
+.three {
+    top: 230px;
+    left: 110px;
+    z-index: 3;
+}
+
+.one {
+    top: -60px;
+    margin-left: 110px;
+
+}
+
+
+/* service section */
+
+
+
+
+.services-container {
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 590px;
+
+}
+
+.ser-img hr {
+    width: 100px;
+    height: 3px;
+    position: relative;
+    background-color: var(--orange);
+    border: none;
+    margin-top: 28px;
+
+}
+
+.ser-img {
+    display: flex;
+    position: relative;
+    margin-left: 490px;
+    gap: 10px;
+
+}
+
+.ser-img img {
+    margin-bottom: 40px;
+
+}
+
+.services-container h3 {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+    margin-top: 70px;
+    font-family: var(--robo);
+}
+
+
+.services-container h2 {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: var(--pop);
+    padding: 0%;
+
+}
+
+.work {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    bottom: 20px;
+}
+
+.same {
+    height: 350px;
+    width: 30%;
+    background-color: white;
+    justify-content: space-evenly;
+    margin: auto;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.same img {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 0;
+    margin-top: 9px;
+}
+
+.same h3 {
+    position: relative;
+    font-size: 18px;
+    font-family: var(--robo);
+    margin: 0;
+    top: -1px;
+    padding: 15px;
+    line-height: 30px;
+}
+
+
+.same p {
+    font-size: 15px;
+
+    justify-content: center;
+    text-align: center;
+    font-family: var(--robo);
+}
+
+.same button {
+    margin-top: 25px;
+    align-items: center;
+    margin-left: 70px;
+    width: 53%;
+    height: 35px;
+    border: solid 2px var(--orange);
+    color: var(--orange);
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+/* contact section */
+
+:root {
+    --robo: Roboto;
+    --pop: Poppins;
+    --orange: #D9A536;
+    --team-color: #B78E36;
+    --bg-color: #FDF8E9;
+}
+
+.contact-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('assets/barber-chair.jpg');
+    /* Overlay gradient for better text readability */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+
+}
+
+.contact {
+    position: relative;
+    height: 250px;
+    width: 33%;
+
+    margin-left: 110px;
+}
+
+.con-img {
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
+
+.contact h3 {
+    color: var(--orange);
+    font-family: var(--robo);
+    line-height: 40px;
+    font-size: 25px;
+}
+
+
+.con-img hr {
+    width: 80px;
+    height: 3px;
+    position: relative;
+    background-color: var(--orange);
+    border: none;
+    margin-top: 28px;
+}
+
+.contact h1 {
+    font-size: 40px;
+}
+
+.appoinment {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 33%;
+    float: right;
+    height: 100%;
+    margin-left: 339px;
+}
+
+.appoinment h1 {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--robo);
+    color: var(--orange);
+}
+
+.appoinment p {
+    font-family: var(--pop);
+    justify-content: center;
+    text-align: center;
+}
+
+
+.appointment-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0.9, 0.9);
+}
+
+.appointment-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.appointment-form form {
+
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.form-row input,
+.form-row select {
+    width: 100%;
+    padding: 0px 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.form-row input::placeholder,
+.form-row select option {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+button[type="submit"] {
+    width: 80%;
+    padding: 12px;
+    background-color: #ffbb33;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 45px;
+    margin-left: 40px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button[type="submit"]:hover {
+    background-color: #e09c00;
+}
+
+
+/* HAPPY CLIENTS SECTION */
+.happy {
+    height: 180px;
+    background-color: var(--bg-color);
+    width: 100%;
+}
+
+.client {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    width: 70%;
+    top: 65px;
+    left: 200px;
+}
+
+.client img {
+    height: 50px;
+    /* align-items: center; */
+}
+
+.zero {
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.zero h1 {
+    font-size: 50px;
+}
+
+
+/* our team section */
+.team-section h3 {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+    margin-top: 70px;
+    font-family: var(--robo);
+}
+
+.team-section h2 {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    bottom: 50px;
+    font-family: var(--pop);
+
+}
+
+.team img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.team {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    bottom: 20px;
+    justify-content: space-evenly;
+    font-size: 13px;
+    color: white;
+    font-weight: 50;
+}
+
+.our {
+    width: 250px;
+    height: 380px;
+    background-color: var(--team-color);
+    text-align: center;
+    font-family: var(--pop);
+}
+
+/* testmonials sectiono */
+
+.testmonial-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/testmonial.jpg");
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 100%;
+    color: white; /* Ensures text is visible over dark background */
+    padding: 20px; /* Adds some padding if needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.test-img hr {
+    width: 200px;
+    height: 3px;
+    position: relative;
+    background-color: var(--orange);
+    border: none;
+    margin-top: 28px;
+
+}
+.test-img {
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+    gap: 10px;
+
+}
+
+.test-img img {
+    margin-bottom: 40px;
+
+}
+
+.testmonial-section h3{
+    font-family: var(--robo);
+  
+}
+
+.testmonial-section h1{
+    font-family: var(--pop);
+   
+}
+
+.monial{
+    margin: auto;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.chart-section{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+}
+
+.fox-img{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("assets/man5.png");
+    z-index: 1;
+}
+
+.marvin-img{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("assets/man6.png");
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.fox{
+    margin-bottom: 50px;
+    width: 40%;
+    background-color: #252424;
+    height: 330px;
+  
+}
+
+.flex{
+    display: flex;
+}
+
+.para{
+    width: 50%;
+    margin: auto;
+    line-height: 25px;
+    
+}
+
+#st{
+    height: 20px;
+    width: 20px;
+}
+.star{
+    /* margin: auto; */
+    position: relative;
+    margin-left: 240px;
+    bottom: 10px;
+}
+
+.star h5{
+    position: relative;
+    margin-top: 15px;
+    color: var(--team-color);
+}
+
+.gold{
+    margin-top: 10px;
+}
+
+#quote{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-left: 200px;
+    bottom: 20px;
+    transform: rotate(180deg);
+}
+
+hr{
+    height: 40px;
+    border: none;
+}
+
+/* pricing contect */
+
+.pricing-content{
+    text-align: center;
+    height: 500px;
+    background-color: var(--bg-color);
+    padding: 20px;
+}
+
+.pri-img hr {
+    width: 170px;
+    height: 3px;
+    position: relative;
+    background-color: var(--orange);
+    border: none;
+    margin-top: 28px;
+
+}
+.pri-img {
+    display: flex;
+    position: relative;
+    left: 430px;
+    gap: 10px;
+
+}
+
+.pri-img img {
+    margin-bottom: 40px;
+
+}
+
+.work-types{
+    
+        position: relative;
+        display: flex;
+        gap: 20px;
+        padding: 0 20px;
+        bottom: 20px;
+        margin-left: 27px;
+
+}
+
+.types p{
+    margin-right: 630px;
+    font-size: 17px;
+}
+
+.types{
+    margin-bottom: 60px;
+}
+
+/* 
+.work-types-container{
+    display: flexbox;
+} */
+
+.plan{
+    width: 40%;
+}
+
+
+.pricing-chart {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 20px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+    top: 50px;
+    
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  .service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border-bottom: 1px dashed #ccc; */
+    padding-bottom: 10px;
+  }
+
+  .service-item:last-child {
+    border-bottom: none;
+  }
+
+  .service-name {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+  }
+
+  .service-price {
+    font-weight: bold;
+    color: #d4a047;
+    font-size: 18px;
+  }
+
+  .service-description {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+    max-width: 80%;
+  }
+
+  .view-more {
+    grid-column: span 2;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .view-more button {
+    background-color: #d4a047;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .view-more button:hover {
+    background-color: #b8893c;
+  }
+
+  .barber-shop{
+      margin-top: 20px;
+      height: 550px;
+      text-align: center;
+    /* width: 100%; */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/goodlook.png");
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    height: 530px;
+    width: 100%;
+    color: white; /* Ensures text is visible over dark background */
+    padding: 20px; /* Adds some padding if needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.shop{
+    
+    width: 40%;
+
+}
+
+
+.shop h3 {
+    font-size: 20px;
+    color: var(--team-color);
+    margin-bottom: 10px; /* Set spacing below h3 */
+  }
+  
+  .shop h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: 0; /* Set spacing above h1 */
+    margin-bottom: 20px;
+    font-family: var(--robo);
+  }
+  
+  .shop p {
+    font-size: 16px;
+    color: white;
+    margin-top: 0; 
+    margin-bottom: 30px; 
+    word-spacing: 2px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  
+  .shop button {
+    background-color: #d4a047;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .shop button:hover {
+    background-color: #b8893c;
+  }

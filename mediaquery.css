@@ -1,0 +1,288 @@
+/* For tablets and larger mobile screens (768px - 1199px) */
+@media (max-width: 1199px) {
+    nav a {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        left: 50px;
+    }
+
+    .para-hero {
+        font-size: 20px;
+        margin-top: 150px;
+        width: 80%;
+    }
+
+    .image-frame, .text-section {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .introducing {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .appoinment, .contact, .barber-shop, .testmonial-section {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .team-section h3, .team-section h2 {
+        font-size: 20px;
+    }
+
+    .shop h1 {
+        font-size: 25px;
+    }
+}
+
+/* For small screens (767px and below) */
+@media (max-width: 767px) {
+    nav {
+        height: 60px;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+        top: 100px;
+        left: 20px;
+    }
+
+    .para-hero {
+        font-size: 16px;
+        margin-top: 100px;
+        width: 90%;
+    }
+
+    .second, .services-container, .team-section, .pricing-content {
+        height: auto;
+        padding: 20px;
+    }
+
+    .same, .our {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .service-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-name, .service-price {
+        font-size: 16px;
+    }
+
+    .image-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .shop h1, .shop p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .work-types, .chart-section {
+        flex-direction: column;
+    }
+
+    .chart-section {
+        justify-content: center;
+    }
+
+    .work-types {
+        margin-left: 0;
+    }
+}
+
+
+
+/* Mobile Responsive Styling */
+@media (max-width: 768px) {
+
+    /* General adjustments */
+    body {
+        font-size: 14px;
+    }
+
+    /* Navbar */
+    nav {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 400px;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+        top: 150px;
+        left: 20px;
+    }
+
+    .para-hero {
+        font-size: 18px;
+        width: 90%;
+        margin-top: 160px;
+    }
+
+    .para-hero p {
+        padding: 0;
+        width: 100%;
+    }
+
+    #appoinment {
+        width: 60%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Introducing Section */
+    .introducing {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .text-section {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #since, .introPara, #more {
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .image-frame {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .image {
+        margin: 20px auto;
+    }
+
+    /* Service Section */
+    .services-container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .services-container h2, .services-container h3 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .work {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .same {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    /* Contact Section */
+    .contact-section, .appoinment {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contact, .appoinment {
+        width: 90%;
+    }
+
+    /* Happy Clients Section */
+    .client {
+        flex-direction: column;
+        width: 100%;
+        left: 0;
+        top: 30px;
+    }
+
+    .client img {
+        height: 40px;
+    }
+
+    /* Team Section */
+    .team {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .our {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Testimonials Section */
+    .testmonial-section {
+        padding: 20px;
+    }
+
+    .chart-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Pricing Section */
+    .pricing-content {
+        padding: 10px;
+        height: auto;
+    }
+
+    .pricing-chart {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    /* Barber Shop Section */
+    .barber-shop {
+        padding: 20px;
+    }
+
+    .shop {
+        width: 90%;
+        text-align: center;
+    }
+
+}
